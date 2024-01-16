@@ -7,7 +7,37 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
+<body class="centro"></body>
 <body>
+      <div class="cuadro_tittle">
+<header>
+  <h1>Analizador de texto</h1>
+</header>
+<div>
+    <label for="user-input">Ingresa tu texto:</label>
+</div>
+<textarea name="user-input" value="user-input" rows="6" cols="44">
+</textarea>
+
+<br>
+<div class="Resultados">
+<ul>
+  <li class="parametros" data-testid="number-count"> Numeros:</li>
+  <li class="parametros" data-testid="word-count"> Palabras:</li>
+  <li class="parametros" data-testid="character-count"> Caracteres:</li>
+  <li class="parametros" data-testid="number-sum"> Suma Números:</li>
+  <li class="parametros" data-testid="word-length-average"> Promedio Longitud:</li>
+  <li class="parametros" data-testid="character-no-spaces-count"> Caracteres sin espacios: </li>
+</ul>
+
+<button id="reset-button" onclick="reset-button()"> Limpiar Metricas </button>
+
+</div>
+<footer>
+  <p> Autora: Yenny Castro Manjarrez</p>
+</footer>
+
   <script src="index.js" type="module"></script>
+  </div>
 </body>
 </html>
